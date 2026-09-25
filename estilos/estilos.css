@@ -1,1 +1,84 @@
+/* Estilos generales de la página */
+body {
+    font-family: Arial;
+    background-color: lightgray;
+    margin: 0;
+}
 
+/* Cabecera */
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    color: red;
+}
+
+/* Menú de navegación */
+nav {
+    background-color: red;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+/* Contenido principal */
+main {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+}
+
+/* Títulos */
+h2 {
+    color: red;
+}
+
+/* Imagen */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Listas */
+ul {
+    line-height: 1.5;
+}
+
+/* Formulario */
+form {
+    width: 60%;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input,
+textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Pie de página */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
