@@ -51,6 +51,8 @@ h2 {
 img {
     width: 70%;
     height: auto;
+    display: block;
+    margin: auto;
 }
 
 /* Listas */
