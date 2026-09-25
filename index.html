@@ -26,8 +26,11 @@
     <main>
 
         <!-- Imagen principal del Gran Premio -->
-        <img src="imagenes/monaco.jpg"
+        <figure>
+            <img src="imagenes/2013_Monaco_Grand_Prix_-_Sunday_(15272209777).jpg"
              alt="Gran Premio de Fórmula 1 de Mónaco">
+            <figcaption>Imagen obtenida de Wikimedia Commons</figcaption>
+        </figure>
 
         <!-- Introducción al Gran Premio de Mónaco -->
         <section>
@@ -64,7 +67,26 @@
                 </a>.
             </p>
         </section>
+         <!-- Formulario de contacto -->
+        <section>
+            <h2>Contacto</h2>
 
+            <form action="mailto:TU-CORREO" method="post" enctype="text/plain">
+
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email">
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje"></textarea>
+
+                <input type="submit" value="Enviar">
+
+            </form>
+        </section>
+        
     </main>
 
     <!-- Pie de página -->
