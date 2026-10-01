@@ -20,10 +20,9 @@ function cambiarTexto() {
 }
 
 
-// Función que muestra la web oficial de Fórmula 1
-function mostrarWeb() {
+// Función que pregunta al usuario por su piloto favorito en indez.html
+function pilotoFavorito() {
+    let piloto = prompt("¿Cuál es tu piloto favorito de Fórmula 1?");
 
-    let web = "https://www.formula1.com/";
-
-    alert("La página oficial de Fórmula 1 es: " + web);
+    alert("Tu piloto favorito es " + piloto);
 }
