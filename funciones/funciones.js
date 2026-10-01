@@ -22,5 +22,5 @@ function cambiarTexto() {
 
 // Función que abre un vídeo sobre el Gran Premio de Mónaco
 function verVideo() {
-    window.location.href = "https://www.youtube.com/watch?v=7109-K28yR8&pp=ygUSY2lyY3VpdG8gZjEgbW9uYWNv";
+    window.location.href = "https://www.youtube.com/watch?v=aQaAaMaFxBE&pp=ygUMZ3AgbW9uYWNvIGYx";
 }
