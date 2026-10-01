@@ -94,3 +94,12 @@ footer {
     text-align: center;
     padding: 15px;
 }
+
+/* Boton */
+.boton-info {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+}
