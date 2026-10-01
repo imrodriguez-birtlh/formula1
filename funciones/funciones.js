@@ -18,3 +18,14 @@ function cambiarTexto() {
             "Pulsa el botón para conocer un dato sobre la historia del Gran Premio de Mónaco.";
     }
 }
+
+
+// Función que pregunta al usuario si quiere visitar la web oficial de Fórmula 1 en index.html
+function visitarFormula1() {
+
+    let respuesta = confirm("¿Quieres visitar la página oficial de Fórmula 1?");
+
+    if (respuesta) {
+        window.open("https://www.formula1.com/", "_blank");
+    }
+}
