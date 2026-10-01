@@ -26,6 +26,6 @@ function visitarFormula1() {
     let respuesta = confirm("¿Quieres visitar la página oficial de Fórmula 1?");
 
     if (respuesta) {
-        window.open("https://www.formula1.com/", "_blank");
+        window.location.href = "https://www.formula1.com/";
     }
 }
