@@ -20,6 +20,7 @@ header h1 {
 
 header p {
     color: red;
+    font-weight: bold;
 }
 
 /* Menú de navegación */
