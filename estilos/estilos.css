@@ -52,8 +52,10 @@ h2 {
 
 /* Imagen */
 img {
-    width: auto;
-    height: auto;
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin: 0 auto;
 }
 
 figcaption {
