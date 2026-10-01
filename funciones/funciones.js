@@ -20,9 +20,7 @@ function cambiarTexto() {
 }
 
 
-// Función que pregunta al usuario por su piloto favorito en indez.html
-function pilotoFavorito() {
-    let piloto = prompt("¿Cuál es tu piloto favorito de Fórmula 1?");
-
-    alert("Tu piloto favorito es " + piloto);
+// Función que abre un vídeo sobre el Gran Premio de Mónaco
+function verVideo() {
+    window.location.href = "https://www.youtube.com/watch?v=7109-K28yR8&pp=ygUSY2lyY3VpdG8gZjEgbW9uYWNv";
 }
