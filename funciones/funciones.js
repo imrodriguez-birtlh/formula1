@@ -20,12 +20,10 @@ function cambiarTexto() {
 }
 
 
-// Función que pregunta al usuario si quiere visitar la web oficial de Fórmula 1 en index.html
-function visitarFormula1() {
+// Función que muestra la web oficial de Fórmula 1
+function mostrarWeb() {
 
-    let respuesta = confirm("¿Quieres visitar la página oficial de Fórmula 1?");
+    let web = "https://www.formula1.com/";
 
-    if (respuesta) {
-        window.location.href = "https://www.formula1.com/";
-    }
+    alert("La página oficial de Fórmula 1 es: " + web);
 }
